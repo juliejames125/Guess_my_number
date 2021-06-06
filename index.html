@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Guess My Number</title>
+  </head>
+  <body>
+    <header>
+      <p class="info">
+        This is a simple game built on Modern js. All you have to do is guess
+        the secret number.
+      </p>
+      <h1>Guess the number!</h1>
+      <p class="Between">{Between 1 and 20}</p>
+    </header>
+    <div class="number">?</div>
+    <main>
+      <div class="checking-number">
+        <input
+          type="number"
+          name=""
+          id=""
+          class="guess"
+          placeholder="Guess any number"
+        />
+        <input type="submit" value="Check!" class="btn check" />
+      </div>
+      <p class="info">To play again please click again button</p>
+      <button class="again">Again</button>
+      <div class="messages">
+        <p class="message">guess number</p>
+        <p>Score: <span class="score">20</span></p>
+        <p>Highscore: <span class="highscore">0</span></p>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
